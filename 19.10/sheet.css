@@ -1,0 +1,28 @@
+table ,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 500px;
+}
+span{color:blue;}
+h2 {
+    background-color: rgb(41, 198, 250);
+    color: blue;
+
+}
+.blue{
+    color:blue;
+    
+    font-weight: bold;
+}
+.gray {
+    background-color:gray;
+}
+.lightblue{
+    color: rgb(39, 187, 237);
+}
+
+
+.formm form [type="submit"]{
+    margin-top: 10px;
+    padding: 5px 7px;
+}
