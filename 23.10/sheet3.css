@@ -1,0 +1,19 @@
+
+
+.one
+{   color: hsla(16, 100%, 50%, 0.836);
+    float: left;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.two
+{   color: black;
+    font-weight: bold;
+    float: right;
+}
+.three{ 
+    font-family: monospace;
+    float: right;
+    
+}

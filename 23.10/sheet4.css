@@ -1,0 +1,13 @@
+
+div{
+    color: white;
+    background-color: rgb(241, 39, 39);
+    display: inline-block;
+    width: 45px;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+}
+.hidden{
+    display: none;
+}
