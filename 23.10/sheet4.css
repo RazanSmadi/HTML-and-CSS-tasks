@@ -1,5 +1,5 @@
 
-div{
+.odd{
     color: white;
     background-color: rgb(241, 39, 39);
     display: inline-block;
@@ -8,6 +8,7 @@ div{
     border: 1px solid black;
     text-align: center;
 }
-.hidden{
+.even{
     display: none;
 }
+
