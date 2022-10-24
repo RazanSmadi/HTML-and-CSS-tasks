@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>task4</title>
+    <style>
+      .main{
+        height: 90vh;
+        display: grid;
+        gap: 10px;
+        grid-template-areas:
+          'blackk blackk blackk blackk blackk' 
+          'orangee orangee orangee greenn greenn'
+          'bluee bluee bluee bluee bluee';
+        grid-template-rows: 15% 60% 25%;
+      }
+      .blackk {
+        grid-area: blackk;
+        background-color: black;
+      }
+      .orangee {
+        grid-area: orangee;
+        background-color: orange;
+      }
+      .greenn {
+        grid-area: greenn;
+        background-color: green;
+      }
+      .bluee {
+        grid-area: bluee;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="blackk"></div>
+      <div class="orangee"></div>
+      <div class="greenn"></div>
+      <div class="bluee"></div>
+    </div>
+  </body>
+</html>
