@@ -1,0 +1,28 @@
+div{
+  height: 100%; 
+} 
+img{
+  width: 350px;
+  height: 200px;
+  display: inline-block;
+  margin: 10px ;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:480px){
+  img{
+      width: 285px;
+      height: 145px;
+  }
+
+}
+  
+@media only screen and (min-width:481px) and (max-width:768px){
+img{
+  width: 35opx;
+  height:220px;
+  
+}
+
+}
+

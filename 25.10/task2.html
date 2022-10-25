@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>task2</title>
+</head>
+<style> 
+#main {
+  width: 100%;
+  height: 700px;
+  border: 4px solid rgb(218, 149, 39);
+  display: flex;
+ }
+  
+#main div {
+  flex: 1;
+  color: white;
+  font-size:100px;
+  font-weight:bold;
+  text-align: center;
+}
+@media only screen and (min-device-width:0px) and (max-device-width:480px) {
+    #main{
+        flex-direction:column ;
+        height:800px              
+    }
+}
+@media only screen and (min-device-width:481px) and (max-device-width:768px) {
+    #main{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;       
+        height: 400px;    
+    }}
+</style>
+<body>
+<div id="main">
+  <div style="background-color:green;">1</div>
+  <div style="background-color:yellow;">2</div>  
+  <div style="background-color:purple;">3</div>
+  <div style="background-color:gray;">4</div>
+  <div style="background-color:blue;">5</div>  
+  <div style="background-color:orange;">6</div>
+  <div style="background-color:pink;">7</div>
+  <div style="background-color:red;">8</div>  
+  <div style="background-color:brown;">9</div>
+</div>
+
+</body>
+</html>
